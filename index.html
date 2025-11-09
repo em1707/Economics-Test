@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Economics Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>&gt; ECONOMICS QUIZ_BANK.EXE</h1>
+      <div id="score-display" class="score-container" style="display: none">
+        LOADING SCORE...
+      </div>
+    </header>
+
+    <main class="quiz-container">
+      <form id="quiz-form">
+        <section class="topic-section">
+          <h2>1. PPF Points (Production Possibility Frontier)</h2>
+
+          <h3>Multiple Choice Questions</h3>
+          <div class="question-block" data-correct-answer="c">
+            <p class="question-text">
+              Question: A point inside the Production Possibility Frontier
+              represents:
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q1" value="a" id="q1a" /><label
+                for="q1a"
+              >
+                a. Full efficiency</label
+              ><br />
+              <input type="radio" name="q1" value="b" id="q1b" /><label
+                for="q1b"
+              >
+                b. Economic growth</label
+              ><br />
+              <input type="radio" name="q1" value="c" id="q1c" /><label
+                for="q1c"
+              >
+                c. Unemployment/inefficiency</label
+              ><br />
+              <input type="radio" name="q1" value="d" id="q1d" /><label
+                for="q1d"
+              >
+                d. Maximum output</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="b">
+            <p class="question-text">
+              Question: A society that transitions from [inside] the PPF to the
+              curve symbolizes:
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q2" value="a" id="q2a" /><label
+                for="q2a"
+              >
+                a. Growth</label
+              ><br />
+              <input type="radio" name="q2" value="b" id="q2b" /><label
+                for="q2b"
+              >
+                b. Efficiency improvement</label
+              ><br />
+              <input type="radio" name="q2" value="c" id="q2c" /><label
+                for="q2c"
+              >
+                c. Decline</label
+              ><br />
+              <input type="radio" name="q2" value="d" id="q2d" /><label
+                for="q2d"
+              >
+                d. Comparative advantage</label
+              ><br />
+            </div>
+          </div>
+
+          <h3>True/False Questions</h3>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: A point on the PPF curve is efficient.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q3" value="true" id="q3true" /><label
+                for="q3true"
+              >
+                True</label
+              ><br />
+              <input type="radio" name="q3" value="false" id="q3false" /><label
+                for="q3false"
+              >
+                False</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="false">
+            <p class="question-text">
+              Statement: A point beyond the PPF is always attainable.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q4" value="true" id="q4true" /><label
+                for="q4true"
+              >
+                True</label
+              ><br />
+              <input type="radio" name="q4" value="false" id="q4false" /><label
+                for="q4false"
+              >
+                False</label
+              ><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>2. The 3 Basic Economic Questions</h2>
+
+          <div class="question-block" data-correct-answer="c">
+            <p class="question-text">
+              Question: Which is NOT one of the three basic economic questions?
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q5" value="a" id="q5a" /><label
+                for="q5a"
+              >
+                a. What to produce?</label
+              ><br />
+              <input type="radio" name="q5" value="b" id="q5b" /><label
+                for="q5b"
+              >
+                b. How to produce?</label
+              ><br />
+              <input type="radio" name="q5" value="c" id="q5c" /><label
+                for="q5c"
+              >
+                c. When to consume?</label
+              ><br />
+              <input type="radio" name="q5" value="d" id="q5d" /><label
+                for="q5d"
+              >
+                d. For whom to produce?</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="false">
+            <p class="question-text">
+              Statement: "For whom to produce?" is not an economic question.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q6" value="true" id="q6true" /><label
+                for="q6true"
+              >
+                True</label
+              ><br />
+              <input type="radio" name="q6" value="false" id="q6false" /><label
+                for="q6false"
+              >
+                False</label
+              ><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>3. What Transforms the PPF (Shifts)</h2>
+          <div class="question-block" data-correct-answer="b">
+            <p class="question-text">
+              Question: What happens to the PPF with technological improvement?
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q7" value="a" id="q7a" /><label
+                for="q7a"
+              >
+                a. It shrinks inward</label
+              ><br />
+              <input type="radio" name="q7" value="b" id="q7b" /><label
+                for="q7b"
+              >
+                b. It shifts outward</label
+              ><br />
+              <input type="radio" name="q7" value="c" id="q7c" /><label
+                for="q7c"
+              >
+                c. It becomes linear</label
+              ><br />
+              <input type="radio" name="q7" value="d" id="q7d" /><label
+                for="q7d"
+              >
+                d. It does not change</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="c">
+            <p class="question-text">
+              Question: Economic growth is represented by:
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q8" value="a" id="q8a" /><label
+                for="q8a"
+              >
+                a. A movement along PPF</label
+              ><br />
+              <input type="radio" name="q8" value="b" id="q8b" /><label
+                for="q8b"
+              >
+                b. A shift inward of PPF</label
+              ><br />
+              <input type="radio" name="q8" value="c" id="q8c" /><label
+                for="q8c"
+              >
+                c. An outward shift of PPF</label
+              ><br />
+              <input type="radio" name="q8" value="d" id="q8d" /><label
+                for="q8d"
+              >
+                d. A point inside PPF</label
+              ><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>4. Price Effect on Supply or Demand</h2>
+          <div class="question-block" data-correct-answer="false">
+            <p class="question-text">
+              Statement: The law of demand shows an inverse relationship between
+              price and demand. 32
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q9" value="true" id="q9true" /><label
+                for="q9true"
+              >
+                True</label
+              ><br />
+              <input type="radio" name="q9" value="false" id="q9false" /><label
+                for="q9false"
+              >
+                False</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: The substitution effect explains why demand curves
+              slope downward.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q10" value="true" id="q10true" /><label
+                for="q10true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q10"
+                value="false"
+                id="q10false"
+              /><label for="q10false"> False</label><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>5. Economics as a Science (Definitions & Tools)</h2>
+          <div class="question-block" data-correct-answer="a">
+            <p class="question-text">
+              Question: Who defined economics as the "science of wealth"?
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q11" value="a" id="q11a" /><label
+                for="q11a"
+              >
+                a. Adam Smith</label
+              ><br />
+              <input type="radio" name="q11" value="b" id="q11b" /><label
+                for="q11b"
+              >
+                b. Alfred Marshall</label
+              ><br />
+              <input type="radio" name="q11" value="c" id="q11c" /><label
+                for="q11c"
+              >
+                c. Lionel Robbins</label
+              ><br />
+              <input type="radio" name="q11" value="d" id="q11d" /><label
+                for="q11d"
+              >
+                d. Paul Samuelson</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="c">
+            <p class="question-text">
+              Question: Robbins' definition emphasized:
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q12" value="a" id="q12a" /><label
+                for="q12a"
+              >
+                a. Human welfare</label
+              ><br />
+              <input type="radio" name="q12" value="b" id="q12b" /><label
+                for="q12b"
+              >
+                b. Wealth creation</label
+              ><br />
+              <input type="radio" name="q12" value="c" id="q12c" /><label
+                for="q12c"
+              >
+                c. Scarcity and choice</label
+              ><br />
+              <input type="radio" name="q12" value="d" id="q12d" /><label
+                for="q12d"
+              >
+                d. Government control</label
+              ><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: Adam Smith defined economics as the science of wealth.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q13" value="true" id="q13true" /><label
+                for="q13true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q13"
+                value="false"
+                id="q13false"
+              /><label for="q13false"> False</label><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: Marginal analysis studies the effect of small
+              incremental changes.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q14" value="true" id="q14true" /><label
+                for="q14true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q14"
+                value="false"
+                id="q14false"
+              /><label for="q14false"> False</label><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>6. What Increases Demand</h2>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: Normal goods see increased demand as income rises.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q15" value="true" id="q15true" /><label
+                for="q15true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q15"
+                value="false"
+                id="q15false"
+              /><label for="q15false"> False</label><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="false">
+            <p class="question-text">
+              Statement: Substitutes move in opposite directions.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q16" value="true" id="q16true" /><label
+                for="q16true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q16"
+                value="false"
+                id="q16false"
+              /><label for="q16false"> False</label><br />
+            </div>
+          </div>
+        </section>
+
+        <section class="topic-section">
+          <h2>7. What Changes Supply</h2>
+          <div class="question-block" data-correct-answer="false">
+            <p class="question-text">
+              Statement: A fall in input prices shifts the supply curve left.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q17" value="true" id="q17true" /><label
+                for="q17true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q17"
+                value="false"
+                id="q17false"
+              /><label for="q17false"> False</label><br />
+            </div>
+          </div>
+          <div class="question-block" data-correct-answer="true">
+            <p class="question-text">
+              Statement: A technological improvement increases supply.
+            </p>
+            <div class="options-group">
+              <input type="radio" name="q18" value="true" id="q18true" /><label
+                for="q18true"
+              >
+                True</label
+              ><br />
+              <input
+                type="radio"
+                name="q18"
+                value="false"
+                id="q18false"
+              /><label for="q18false"> False</label><br />
+            </div>
+          </div>
+        </section>
+
+        <div class="button-container">
+          <button type="submit" class="submit-button">
+            SUBMIT<span class="blink">_</span>
+          </button>
+          <button
+            type="button"
+            id="restart-button"
+            class="restart-button"
+            style="display: none"
+          >
+            RESTART<span class="blink">_</span>
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 | Website developed by Mostafa Gamal (EM1707) | Questions
+        written by Fahd Sherif
+      </p>
+    </footer>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
